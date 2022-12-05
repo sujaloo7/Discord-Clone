@@ -1,13 +1,285 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+Link
+{
+  text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-item .nav-link
+{
+  color: #fff;
+  font-family: 'Outfit', sans-serif;
+
+  justify-content: space-around;
+
+}
+.nav-item .nav-link:hover
+{
+  color: #fff;
+}
+.login-button:hover
+{
+  color: #5865f2 !important;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+.hero-wrapper
+{
+  background-image: url('./images/hero.png');
+  height: 80vh;
+  background-size: cover;background-repeat: no-repeat;
+
+}
+.hero-wrapper h1
+{
+  font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  color: #fff;
+  text-align: center;
+  font-weight: 800 !important;
+  margin-bottom: 30px;
+}
+.hero-wrapper p
+{
+  font-weight: 500;
+  letter-spacing:1px;
+}
+.hero-wrapper button
+{
+  font-size: large;
+
+  padding: 13px;
+  border-radius: 50px; 
+}
+.hero-wrapper button:hover
+{
+  color: #5865f2 !important;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%) !important;
+}
+.content-section h1
+{
+  font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-weight: 800 !important;
+  margin-bottom: 30px; 
+  margin-top: 50px;
+}
+.content-section p
+{
+  font-size: 17px;
+}
+.closer h1
+{
+  font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-weight: 800 !important;
+  margin-bottom: 30px; 
+  margin-top: 50px;
+  text-align: center;
+}
+.closer p
+{
+  font-size: 17px;
+}
+.download h3
+{
+  font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-weight: 800 !important;
+  margin-bottom: 30px; 
+  margin-top: 50px;
+  text-align: center;
+  background-image: url('./images/head.svg');
+  background-size: contain;
+}
+.download button
+{
+  background-color: #5865f2 !important; border-radius: 50px;
+  padding: 10px;
+  color: #fff;
+}
+.download button:hover
+{
+  color: #fff;
+  opacity: 0.8;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%) !important;
+}
+.footer li
+{
+  list-style: none;
+  color: #fff !important;
+}
+.footer h1
+{
+  font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-weight: 800 !important;
+  margin-bottom: 30px; 
+  color:#5865f2;
+}
+.footer
+{
+  background-color: #23272a;
+}
+.footer h6{
+  color: #5865f2;
+}
+.botton-footer
+{
+border-top: 1px solid #5865f2;
+ margin-top: 30px;
+}
+.footer button
+{
+  border-radius: 50px;
+  background-color: #5865f2 !important;
+}
+.footer i
+{
+  margin: 10px;
+  font-size: 20px;
+}
+.login-wrapper
+{
+  background-image: url('./images/loginbackground.png');
+  height: 100vh;
+  background-size: cover;
+}
+.login-wrapper .col-sm-8
+{
+margin-top: 50px !important;
+}
+.login-wrapper h1
+{
+  font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-weight: 800 !important;
+  color:#ffffff;
+  font-size: 21px; 
+  text-align: center;
+}
+.login-wrapper p
+{
+  color: #B9BBBE;
+  font-size: 14px;
+  font-weight: 400 !important;
+  text-align: center;
+}
+.login-wrapper small
+{
+  color: #B9BBBE;
+  font-size: 14px;
+  font-weight: 400 !important;
+  text-align: center;
+}
+.login-wrapper form label
+{ font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-size: 12px;
+  color: #B9BBBE;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.login-wrapper form input
+{
+  background-color: #202225;
+  border: none;
+  padding: 10px;
+}
+.login-wrapper form input:focus
+{
+  background-color: #1a1919;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.login-wrapper button
+{
+  background-color: #5865f2;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+.login-wrapper button:hover
+{
+  background-color: #5865f2;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+.register-wrapper
+{
+  background-image: url('./images/loginbackground.png');
+  height: 100vh;
+  background-size: cover; 
+}
+.register-wrapper h1
+{
+  font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-weight: 800 !important;
+  color:#ffffff;
+  font-size: 19px; 
+  text-align: center; 
+}
+.register-wrapper form label
+{ font-family: 'Candal', sans-serif !important;
+  text-transform: uppercase;
+  text-rendering: geometricPrecision;
+  font-size: 12px;
+  color: #B9BBBE;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.register-wrapper form input
+{
+  background-color: #202225;
+  border: none;
+  padding: 10px;
+}
+.register-wrapper form input:focus
+{
+  background-color: #1a1919;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.register-wrapper select
+{
+  background-color: #202225;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px;
+}
+.register-wrapper select option
+{
+  border: none;
+}
+.register-wrapper button
+{
+  background-color: #5865f2;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+.register-wrapper button:hover
+{
+  background-color: #5865f2;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+.register-wrapper p
+{
+  color: #B9BBBE;
+  font-size: 13px;
+  font-weight: 400 !important;
+  padding: 10px;
+  margin-top: 10px;
 }

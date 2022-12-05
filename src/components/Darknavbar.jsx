@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../images/discord.png"
 
-const Navbars = () => {
+const Darknavbar = () => {
   return (
-        <>
-       <nav class="navbar navbar-expand-lg " style={{backgroundColor:"#404eed"}}>
+   <>
+    <nav class="navbar navbar-expand-lg " style={{backgroundColor:"#23272a"}}>
   <div class="container-fluid px-5 p-3">
-    <a class="navbar-brand" href="#"> <img src={logo} height="25" alt="" /> </a>
+    <Link class="navbar-brand" to="/"> <img src={logo} height="25" alt="" /> </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,8 +43,8 @@ const Navbars = () => {
     </div>
   </div>
 </nav>
-        </>
+   </>
   )
 }
 
-export default Navbars
+export default Darknavbar
